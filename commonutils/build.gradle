@@ -41,6 +41,7 @@ android {
 
 dependencies {
 
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.7.21"
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
@@ -52,9 +53,9 @@ dependencies {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'org.company'
+            groupId = 'com.github.tiko0612'
             artifactId = 'common-utils'
-            version = "1.0.5"
+            version = "1.0.6"
 
             pom {
                 description = 'A description of my library'
